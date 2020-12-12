@@ -42,7 +42,7 @@ namespace GraphData.Services
 
             for (var dt = filter.FromDate; dt <= filter.ToDate; dt = dt.AddDays(1))
             {
-                var date = $"{dt: dd-MM-yyyy}";
+                var date = $"{dt:dd-MM-yyyy}";
                 var positionCount = positions.Where(p => p.RequestDate == date).SingleOrDefault()?.PositionsCount ?? 0;
                 var viewsCount = views.Where(v => v.RequestDate == date).SingleOrDefault()?.ViewsCount ?? 0;
                 var viewsPrediction = _predictionsService.GetPrediction(viewsCount, dt);

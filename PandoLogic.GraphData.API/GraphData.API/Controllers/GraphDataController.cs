@@ -24,6 +24,7 @@ namespace GraphData.API.Controllers
         { }
 
         [HttpGet]
+        [HttpOptions]
         public async Task<IActionResult> GetGraphData([FromQuery] GetGraphDataRequest request) {
             var validationResult = await RequestValidator.Validate(request);
             if (!validationResult.IsValid) { throw new BadRequestException(validationResult.Errors); }

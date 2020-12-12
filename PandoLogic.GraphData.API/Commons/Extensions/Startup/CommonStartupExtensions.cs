@@ -53,6 +53,14 @@ namespace Commons.Extensions.Startup
         {
             var mvcCoreBuilder = services
                 .AddMvcCore()
+                .AddCors(options => {
+                    options.AddDefaultPolicy(builder =>
+                    {
+                        builder.AllowAnyMethod();
+                        builder.AllowAnyHeader();
+                        builder.AllowAnyOrigin();
+                    });
+                })
                 .AddApiExplorer();
 
             mvcCoreBuilderAction?.Invoke(mvcCoreBuilder);

@@ -37,6 +37,7 @@ namespace Commons.Extensions.Startup
         public static void ConfigureApiControllers(this IApplicationBuilder app)
         {
             app.UseRouting();
+            app.UseCors();
 
             app.UseEndpoints(endpoints => endpoints.MapControllers());
         }
