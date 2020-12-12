@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.API", "GraphData.API\GraphData.API.csproj", "{37D6D8A3-2EC9-423B-8D0A-715152DBD91B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commons", "Commons\Commons.csproj", "{9CB90662-175C-4297-AA92-09F4A8C39670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Data", "GraphData.Data\GraphData.Data.csproj", "{52E57C2F-21C7-44A9-9DBF-F108DD63EA21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Services", "GraphData.Services\GraphData.Services.csproj", "{8EF88BD6-10BA-405B-B2AF-EE09372FE187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Migrations", "GraphData.Migrations\GraphData.Migrations.csproj", "{64CEA42D-CE08-4417-87AD-D70D18A39D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphData.Services.Tests", "GraphData.Services.Tests\GraphData.Services.Tests.csproj", "{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D6D8A3-2EC9-423B-8D0A-715152DBD91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D6D8A3-2EC9-423B-8D0A-715152DBD91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D6D8A3-2EC9-423B-8D0A-715152DBD91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D6D8A3-2EC9-423B-8D0A-715152DBD91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB90662-175C-4297-AA92-09F4A8C39670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB90662-175C-4297-AA92-09F4A8C39670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB90662-175C-4297-AA92-09F4A8C39670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB90662-175C-4297-AA92-09F4A8C39670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E57C2F-21C7-44A9-9DBF-F108DD63EA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E57C2F-21C7-44A9-9DBF-F108DD63EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E57C2F-21C7-44A9-9DBF-F108DD63EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E57C2F-21C7-44A9-9DBF-F108DD63EA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF88BD6-10BA-405B-B2AF-EE09372FE187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF88BD6-10BA-405B-B2AF-EE09372FE187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF88BD6-10BA-405B-B2AF-EE09372FE187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF88BD6-10BA-405B-B2AF-EE09372FE187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CEA42D-CE08-4417-87AD-D70D18A39D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CEA42D-CE08-4417-87AD-D70D18A39D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CEA42D-CE08-4417-87AD-D70D18A39D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CEA42D-CE08-4417-87AD-D70D18A39D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F1FB9F2-D4E9-456E-A184-4680C7580843}
+	EndGlobalSection
+EndGlobal
