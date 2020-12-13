@@ -26,11 +26,20 @@ const CahrtContainer = () => {
     
     return (
         <>
-            <div>Elements count: {data.length}</div>
             <Chart
                 width={'100%'}
                 data={data}
-                options={{}}
+                loader={<div>Loading Chart</div>}
+                options={{
+                    title: 'Cumulative job views vs. predixtions',
+                    vAxis: { title: 'Jobs' },
+                    hAxis: { title: 'Job views' },
+                    seriesType: 'bars',
+                    series: {
+                        4: { type: 'line' },
+                        3: { type: 'line' }
+                    }
+                }}
                 chartType="ComboChart"
             />
         </>
