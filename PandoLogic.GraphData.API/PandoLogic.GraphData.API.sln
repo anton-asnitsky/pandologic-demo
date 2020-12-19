@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Services", "Graph
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Migrations", "GraphData.Migrations\GraphData.Migrations.csproj", "{64CEA42D-CE08-4417-87AD-D70D18A39D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphData.Services.Tests", "GraphData.Services.Tests\GraphData.Services.Tests.csproj", "{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphData.Tests", "GraphData.Services.Tests\GraphData.Tests.csproj", "{AC013640-CE5D-4A48-9042-F6F8FEA3E18C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

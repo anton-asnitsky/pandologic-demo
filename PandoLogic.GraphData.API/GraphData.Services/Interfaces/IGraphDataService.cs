@@ -8,6 +8,6 @@ namespace GraphData.Services.Interfaces
 {
     public interface IGraphDataService
     {
-        Task<IEnumerable<IEnumerable<string>>> GetGraohData(QueryFilter filter1, string correlationId);
+        Task<IEnumerable<IEnumerable<object>>> GetGraohData(QueryFilter filter1, string correlationId);
     }
 }

@@ -57,7 +57,7 @@ namespace GraphData.API
         public static void RegisterServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddTransient<IPredictionsService, PredictionsService>();
-            services.AddTransient<IGraphDataService, GraohDataService>();
+            services.AddTransient<IGraphDataService, GraphDataService>();
         }
 
         public static void RegisterDataStores(this IServiceCollection services, IConfiguration configuration)

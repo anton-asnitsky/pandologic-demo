@@ -1,10 +1,8 @@
-import Main from "./views/Main/main";
-
-
+import Graph from './components/graph'
 function App() {
   return (
     <div className="App">
-      <Main />
+     <Graph />
     </div>
   );
 }
