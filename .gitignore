@@ -54,6 +54,5 @@ msbuild.wrn
 ApiClient
 Published
 .idea
-launchSettings.json
 *.pdf
 *.zip
